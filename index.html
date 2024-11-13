@@ -7,101 +7,103 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Adam Atoom</h1>
-        <p>Vancouver, BC, Canada</p>
-        <p>
-            <a href="mailto:adamatoom0@gmail.com">adamatoom0@gmail.com</a> |
-            <a href="https://linkedin.com/in/adamatoom">LinkedIn</a> |
-            <a href="https://github.com/w100grosser">GitHub</a>
-        </p>
-    </header>
+    <div class="container">
+        <header>
+            <h1>Adam Atoom</h1>
+            <p>Vancouver, BC, Canada</p>
+            <p>
+                <a href="mailto:adamatoom0@gmail.com">adamatoom0@gmail.com</a> |
+                <a href="https://linkedin.com/in/adamatoom">LinkedIn</a> |
+                <a href="https://github.com/w100grosser">GitHub</a>
+            </p>
+        </header>
 
-    <section>
-        <h2>Work Experience</h2>
-        <div class="job">
-            <h3>Machine Learning Scientist</h3>
-            <p>The University of British Columbia / Machinery Analytics</p>
-            <p>Jan. 2023 -- Present</p>
+        <section>
+            <h2>Work Experience</h2>
+            <div class="job">
+                <h3>Machine Learning Scientist</h3>
+                <p>The University of British Columbia / Machinery Analytics</p>
+                <p>Jan. 2023 -- Present</p>
+                <ul>
+                    <li>Developed deep learning models using Vision Transformers (ViTs) and CNNs for industrial super-resolution, leveraging Python for optimized image analysis pipelines.</li>
+                    <li>Enhanced real-time deployment of PyTorch models on GPU for industrial applications, surpassing previous benchmarks in speed and accuracy.</li>
+                    <li>Built scalable data analysis pipelines in Python, reducing processing time by 40% using GPU acceleration.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Machine Learning Engineer</h3>
+                <p>Iotistic Solutions</p>
+                <p>Sep. 2021 -- Dec. 2023</p>
+                <ul>
+                    <li>Designed and implemented end-to-end ML solutions using AWS SageMaker for fleet management, integrating predictive analytics with real-time monitoring systems in Python.</li>
+                    <li>Built and optimized LLM-based models in Python for predictive maintenance, fleet performance analytics, and anomaly detection, improving operational efficiency by 25%.</li>
+                    <li>Deployed ML and NLP models using MLOps practices in Python, ensuring robust CI/CD pipelines with Jenkins and Docker for scalable production environments.</li>
+                    <li>Led the integration of ML models with computer vision solutions for autonomous vehicle projects, enhancing object detection and decision-making capabilities using PyTorch.</li>
+                    <li>Optimized infrastructure for data processing using AWS services including Glue, EMR, and DynamoDB, improving data throughput by 30% with GPU acceleration.</li>
+                </ul>
+                <div class="images">
+                    <img src="imgs/iotistic_car.jpg" alt="Car Setup">
+                </div>
+            </div>
+            <div class="job">
+                <h3>Computer Vision Engineer</h3>
+                <p>JoVision</p>
+                <p>Jan. 2021 -- Sep. 2021</p>
+                <ul>
+                    <li>Developed and deployed computer vision algorithms for industrial inspection using Python, reducing inspection times by 25%.</li>
+                    <li>Integrated vision systems with hardware control for real-time quality inspection using GPU acceleration.</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Engineering Intern</h3>
+                <p>Sager Drones</p>
+                <p>Oct. 2018 -- May 2020</p>
+                <ul>
+                    <li>Developed UAV control software using C++ and Python, optimizing communication protocols for real-time drone operation.</li>
+                    <li>Implemented synchronized drone swarm algorithms in Python, improving flight coordination efficiency by 30%.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="education">
+                <h3>Master of Applied Science in Engineering</h3>
+                <p>The University of British Columbia</p>
+                <p>Jan. 2023 -- Oct. 2024</p>
+                <p>Research focus: Machine Learning, AI Systems, and Computer Vision using Python, PyTorch, and GPU computing.</p>
+                <div class="images">
+                    <img src="imgs/ubc_grad.jpg" alt="Graduation Picture">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Predictive Maintenance System for Fleet Management</h3>
+                <p>Designed a scalable ML-based predictive maintenance system leveraging time-series data and real-time analytics in Python with LLM models, reducing maintenance costs by 15%.</p>
+            </div>
+            <div class="project">
+                <h2>Retrofitting a KIA Soul Vehicle with ADAS</h2>
+                <p>Built a CAN-bus-based steering control module to handle the low level steering control. Used a camera with an Nvidia Jetson Xavier NX computer to predict the path that the vehicle should traverse. The Jetson computer transmits the path to the steering control module to control the lateral movement of the vehicle.</p>
+                <div class="images">
+                    <img src="imgs/autonomous_driving.gif" alt="Car Project GIF">
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
             <ul>
-                <li>Developed deep learning models using Vision Transformers (ViTs) and CNNs for industrial super-resolution, leveraging Python for optimized image analysis pipelines.</li>
-                <li>Enhanced real-time deployment of PyTorch models on GPU for industrial applications, surpassing previous benchmarks in speed and accuracy.</li>
-                <li>Built scalable data analysis pipelines in Python, reducing processing time by 40% using GPU acceleration.</li>
-            </ul>
-        </div>
-        <div class="job">
-            <h3>Machine Learning Engineer</h3>
-            <p>Iotistic Solutions</p>
-            <p>Sep. 2021 -- Dec. 2023</p>
-            <ul>
-                <li>Designed and implemented end-to-end ML solutions using AWS SageMaker for fleet management, integrating predictive analytics with real-time monitoring systems in Python.</li>
-                <li>Built and optimized LLM-based models in Python for predictive maintenance, fleet performance analytics, and anomaly detection, improving operational efficiency by 25%.</li>
-                <li>Deployed ML and NLP models using MLOps practices in Python, ensuring robust CI/CD pipelines with Jenkins and Docker for scalable production environments.</li>
-                <li>Led the integration of ML models with computer vision solutions for autonomous vehicle projects, enhancing object detection and decision-making capabilities using PyTorch.</li>
-                <li>Optimized infrastructure for data processing using AWS services including Glue, EMR, and DynamoDB, improving data throughput by 30% with GPU acceleration.</li>
+                <li><strong>Languages:</strong> Python, C++, Go, SQL, JavaScript</li>
+                <li><strong>Frameworks/Tools:</strong> PyTorch, TensorFlow, HuggingFace, Keras, AWS SageMaker, Docker, Azure, GCP, MLflow, Kubeflow, Git, OpenCV, Linux, GPU Computing</li>
+                <li><strong>Technologies:</strong> Deep Learning, Large Language Models (LLMs), NLP, MLOps, Computer Vision, Cloud Computing, Reinforcement Learning, Data Pipelines, Edge Computing, CI/CD, Data Integration</li>
             </ul>
             <div class="images">
-                <img src="imgs/iotistic_car.jpg" alt="Car Setup">
+                <img src="imgs/adam_pic.jpg" alt="Personal Picture">
             </div>
-        </div>
-        <div class="job">
-            <h3>Computer Vision Engineer</h3>
-            <p>JoVision</p>
-            <p>Jan. 2021 -- Sep. 2021</p>
-            <ul>
-                <li>Developed and deployed computer vision algorithms for industrial inspection using Python, reducing inspection times by 25%.</li>
-                <li>Integrated vision systems with hardware control for real-time quality inspection using GPU acceleration.</li>
-            </ul>
-        </div>
-        <div class="job">
-            <h3>Engineering Intern</h3>
-            <p>Sager Drones</p>
-            <p>Oct. 2018 -- May 2020</p>
-            <ul>
-                <li>Developed UAV control software using C++ and Python, optimizing communication protocols for real-time drone operation.</li>
-                <li>Implemented synchronized drone swarm algorithms in Python, improving flight coordination efficiency by 30%.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section>
-        <h2>Education</h2>
-        <div class="education">
-            <h3>Master of Applied Science in Engineering</h3>
-            <p>The University of British Columbia</p>
-            <p>Jan. 2023 -- Oct. 2024</p>
-            <p>Research focus: Machine Learning, AI Systems, and Computer Vision using Python, PyTorch, and GPU computing.</p>
-            <div class="images">
-                <img src="imgs/ubc_grad.jpg" alt="Graduation Picture">
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Predictive Maintenance System for Fleet Management</h3>
-            <p>Designed a scalable ML-based predictive maintenance system leveraging time-series data and real-time analytics in Python with LLM models, reducing maintenance costs by 15%.</p>
-        </div>
-        <div class="project">
-            <h2>Retrofitting a KIA Soul Vehicle with ADAS</h2>
-            <p>Built a CAN-bus-based steering control module to handle the low level steering control. Used a camera with an Nvidia Jetson Xavier NX computer to predict the path that the vehicle should traverse. The Jetson computer transmits the path to the steering control module to control the lateral movement of the vehicle.</p>
-            <div class="images">
-                <img src="imgs/autonomous_driving.gif" alt="Car Project GIF">
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li><strong>Languages:</strong> Python, C++, Go, SQL, JavaScript</li>
-            <li><strong>Frameworks/Tools:</strong> PyTorch, TensorFlow, HuggingFace, Keras, AWS SageMaker, Docker, Azure, GCP, MLflow, Kubeflow, Git, OpenCV, Linux, GPU Computing</li>
-            <li><strong>Technologies:</strong> Deep Learning, Large Language Models (LLMs), NLP, MLOps, Computer Vision, Cloud Computing, Reinforcement Learning, Data Pipelines, Edge Computing, CI/CD, Data Integration</li>
-        </ul>
-        <div class="images">
-            <img src="imgs/adam_pic.jpg" alt="Personal Picture">
-        </div>
-    </section>
+        </section>
+    </div>
 </body>
 </html>

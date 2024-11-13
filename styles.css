@@ -74,3 +74,9 @@ ul li {
     padding: 5px;
     background-color: #fff;
 }
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px; /* Adjust the max-width as needed */
+    /* ...other styles... */
+}
